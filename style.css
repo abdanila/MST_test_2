@@ -141,4 +141,7 @@ body::-webkit-scrollbar {
     .hole-last{
         width: 51vw;
     }
+    .gap-fill {
+        height: 5vw;
+    }
 }
