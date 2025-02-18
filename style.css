@@ -91,6 +91,9 @@ video{
     position: relative;
     z-index: 1;
 }
+body{
+    background-color: #000;
+}
 body::-webkit-scrollbar {
     display: none;
   }
@@ -133,4 +136,9 @@ body::-webkit-scrollbar {
 }
 .hole-last{
     width: 53vw;
+}
+@media(max-width: 500px){
+    .hole-last{
+        width: 51vw;
+    }
 }
